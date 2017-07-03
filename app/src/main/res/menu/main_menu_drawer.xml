@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_slidemenu_home"
+        android:title="หน้าหลัก" />
+
+    <item
+        android:id="@+id/nav_pick"
+        android:icon="@drawable/ic_slidemenu_pick"
+        android:title="รับของ" />
+    <item
+        android:id="@+id/nav_prodpick"
+        android:icon="@drawable/ic_slidemenu_prodpick"
+        android:title="รับจากการผลิต" />
+    <item
+        android:id="@+id/nav_issue"
+        android:icon="@drawable/ic_slidemenu_issue"
+        android:title="เบิกของ" />
+    <item
+        android:id="@+id/nav_issuesale"
+        android:icon="@drawable/ic_slidemenu_so"
+        android:title="เบิกเพื่อขาย" />
+    <item
+        android:id="@+id/nav_transfer"
+        android:icon="@drawable/ic_slidemenu_trans"
+        android:title="ย้ายของ" />
+    <item
+        android:id="@+id/nav_check"
+        android:icon="@drawable/ic_slidemenu_check"
+        android:title="ตรวจนับ" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_slidemenu_search"
+        android:title="ค้นหา" />
+</menu>

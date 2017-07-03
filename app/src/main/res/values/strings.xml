@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">ThaiOPP Warehouse</string>
+
+    <string name="config_filename">thaiopp.cfg</string>
+    <string name="log_filename">thaiopplog</string>
+    <string name="stockreclog_filename">stockrec</string>
+    <string name="log_extension">.txt</string>
+    <string name="csv_extension">.csv</string>
+
+    <string name="sp_login">SP_DROID_CHK_LOGIN</string>
+    <string name="sp_branch">SP_DI_DROID_GET_BRANCH</string>
+    <string name="sp_branch_warehouse">SP_DROID_GET_WAREHOUSE</string>
+    <string name="sp_inv_issue">SP_DROID_INVENTORY_PROCESS</string>
+    <string name="sp_inv_pick">SP_DROID_INVENTORY_PROCESS</string>
+    <string name="sp_mov_pallet">SP_PLMT_CHANGE_PALLET_LOCATION</string>
+    <string name="sp_mov_rollinpallet">SP_PLMT_MOVE_ROLL_INPALLET</string>
+    <string name="sp_mov_roll">SP_PLMT_MOVE_ROLL</string>
+    <string name="sp_rcv_pallet">SP_PLMT_RECIEVE_PALLET_MUTIJOB</string>
+    <string name="sp_get_barcode_inv">SP_DI_GET_BARCODE_INVENTORY</string>
+    <string name="sp_get_loc_stock">SP_DROID_GET_LOCATION_STOCK</string>
+    <string name="sp_get_location_stock">SP_DI_DROID_GET_LOCATION_STOCK</string>
+    <string name="sp_get_roll">SP_DI_DROID_GET_PALLET_DET_LOC</string>
+    <string name="sp_get_chk_roll">SP_DI_GET_PALLET_DET_LOC</string>
+    <string name="sp_get_pallet_detail">SP_DROID_GET_PALLET_DETAIL</string>
+    <string name="sp_get_pick">SP_DI_DROID_GET_WORKORDER_RCV</string>
+    <string name="sp_get_issue">SP_DI_DROID_GET_WORKORDER_ISS</string>
+    <string name="sp_count_pick">SP_DI_DROID_GET_JOBCNT_RCV</string>
+    <string name="sp_count_prodrcv">SP_DI_DROID_GET_JOBCNT_PROD</string>
+    <string name="sp_count_issue">SP_DI_DROID_GET_JOBCNT_ISS</string>
+    <string name="sp_count_so">SP_DI_DROID_GET_JOBCNT_SO</string>
+    <string name="sp_send_check">SP_DI_DROID_UPT_LOCATION_STOCK</string>
+    <string name="sp_send_transfer">SP_DI_DROID_UPT_LOCATION_STOCK</string>
+    <string name="sp_move_roll_location">SP_DI_MOVE_ROLL_INPALLET</string>
+    <string name="sp_move_pallet_location">SP_PLMT_CHANGE_PALLET_LOCATION</string>
+    <string name="sp_move_roll_pallet">SP_DI_DROID_MOVE_ROLL_PALLET</string>
+    <string name="sp_get_barcodedetail">SP_DI_DROID_GET_BARCODE_DET</string>
+    <string name="sp_uptwo_issue">SP_DI_UPT_WORKORDER_ISS</string>
+    <string name="sp_uptwo_so">SP_DI_UPT_WORKORDER_SO</string>
+    <string name="sp_uptwo_rcv">SP_DI_DROID_UPT_WORKORDER_RCV</string>
+    <string name="sp_get_locationlist">SP_DI_DROID_GET_ALL_LOCA_STOCK</string>
+    <string name="sp_get_workorder_prod">SP_DI_DROID_GET_WORKORDER_PROD</string>
+    <string name="sp_send_prodrcv_roll">SP_DI_RECIEVE_ROLL_MUTIJOB </string>
+    <string name="sp_send_prodrcv_pallet">SP_PLMT_RECIEVE_PALLET_MUTIJOB </string>
+    <string name="sp_move_pallet_tokpp">SP_PLMT_MOVE_PALLET_TOKPP</string>
+    <string name="sp_move_roll_tokpp">SP_DI_MOVE_ROLL_TOKPP</string>
+    <string name="sp_getwo_iss">SP_DI_GET_WORKORDER_ISS_HEAD</string>
+    <string name="sp_getwo_issdetail">SP_DI_GET_WORKORDER_ISS_DETAIL</string>
+    <string name="sp_getwo_rcv">SP_DI_GET_WORKORDER_RCV_HEADER</string>
+    <string name="sp_getwo_rcvdetail">SP_DI_GET_WORKORDER_RCV_DETAIL</string>
+    <string name="sp_getwo_so">SP_DI_GET_WORKORDER_SO_HEAD</string>
+    <string name="sp_getwo_sodetail">SP_DI_GET_WORKORDER_SO_DETAIL</string>
+    <string name="sp_getaval_location">SP_DI_GET_AVAL_LOCATION</string>
+
+
+    <string name="val_org">OPP</string>
+
+    <string name="txtUser">ชื่อผู้ใช้</string>
+    <string name="txtPassword">รหัสผ่าน</string>
+    <string name="txtBranch">เลือกสาขา</string>
+
+    <string name="txtIssue">เบิกของ</string>
+    <string name="txtIssueSale">เบิกเพื่อขาย</string>
+    <string name="txtPick">รับของ</string>
+    <string name="txtProdPick">รับจากการผลิต</string>
+    <string name="txtTransfer">ย้ายของ</string>
+    <string name="txtPallet">จัดการพาเลท</string>
+    <string name="txtCheck">ตรวจสอบ</string>
+    <string name="txtSearch">ค้นหา</string>
+    <string name="txtMain">หน้าหลัก</string>
+    <string name="txtSetting">ตั้งค่า</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="data_input_hint">อ่านบาร์โค้ด หรือพิมพ์รหัส</string>
+    <string name="pin_input_hint">ใส่ PIN CODE</string>
+    <string name="bc_dialog_title">รับข้อมูล</string>
+
+    <string name="action_save">บันทึก</string>
+    <string name="action_showedittext">แสดงช่องใส่ข้อมูล</string>
+    <string name="action_cancel">ย้อนกลับ</string>
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="action_close">ปิด</string>
+
+    <string name="msg_check_config">ตรวจสอบการตั้งค่า และเน็ตเวิร์ค</string>
+    <string name="msg_close_app">ต้องการออกจากโปรแกรม?</string>
+    <string name="msg_user_notfound">ไม่พบชื่อผู้ใช้ในระบบ</string>
+    <string name="msg_wrong_password">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="msg_haveupdate">ยังไม่ได้บันทึกข้อมูล\nต้องการออกจากหน้านี้</string>
+    <string name="msg_nolocation">ยังไม่ได้ระบุที่ตั้ง</string>
+    <string name="msg_nopallet">ยังไม่ได้ระบุพาเลท</string>
+    <string name="msg_save_error">บันทึกไม่สำเร็จ</string>
+    <string name="msg_save_success">บันทึกสำเร็จ</string>
+    <string name="msg_notfound">ไม่พบข้อมูลที่ระบุ</string>
+    <string name="msg_start_location">ระบุที่ตั้งเพื่อเริ่มงาน</string>
+    <string name="msg_exceed_qty">จำนวนเกินที่กำหนด</string>
+    <string name="msg_exceed_locqty">จำนวนเกินที่ถูกบันทึกใว้ในที่ตั้งนี้</string>
+    <string name="msg_location_exist">ระบุที่ตั้งไว้แล้ว</string>
+    <string name="msg_pallet_exist">ระบุพาเล็ตไว้แล้ว</string>
+    <string name="msg_confirm_exit">ตัองการออกจากโปรแกรม</string>
+    <string name="msg_connection_fail">การเชื่อมต่อมีปัญหา</string>
+    <string name="msg_not_inlocation">ไม่พบข้อมูลในที่ตั้งที่ระบุ</string>
+    <string name="msg_not_inpallet">ไม่พบข้อมูลในพาเล็ตที่ระบุ</string>
+    <string name="msg_wrong_type">ต้องเป็นม้วนหรือพาเล็ตอย่างใดอย่างหนึ่งเท่านั้น</string>
+    <string name="msg_req_destlocation">ระบุที่ตั้งปลายทาง</string>
+    <string name="msg_req_orglocation">ระบุที่ตั้งต้นทาง</string>
+    <string name="msg_req_manylocation">ระบุที่ตั้ง</string>
+    <string name="msg_req_destpallet">ระบุพาเล็ตปลายทาง</string>
+    <string name="msg_same_destination">ต้นทางและปลายทางไม่สามารถเป็นที่เดียวกัน</string>
+    <string name="msg_location_notallow">ต้องเป็นรหัสของพาเเล็ตหรือม้วนเท่านั้น</string>
+    <string name="msg_pallet_notallow">ต้องมีเฉพาะรหัสม้วนเท่านั้น\nจึงจะเลือกปลายทางเป็นพาเล็ตได้</string>
+    <string name="msg_pallet_only">เป็นของที่อยู่บนพาเล็ต\nใส่ได้เฉพาะรหัสพาเล็ตเท่านั้น</string>
+    <string name="msg_no_update">ข้อมูลไม่มีการเปลี่ยนแปลง</string>
+    <string name="msg_already_check">ข้อมูลนี้บันทึกไว้แล้ว</string>
+    <string name="msg_location_notfound">ไม่มีที่ตั้งนี้อยู่ในรายการ</string>
+    <string name="msg_reserve">ไม่สามารถทำรายการได้</string>
+    <string name="msg_remove">บันทึกรายการนี้ไว้แล้ว\nต้องการลบออกหรือไม่?</string>
+    <string name="msg_location_save">ยืนยันการรับเข้าพื้นที่ </string>
+    <string name="msg_notfound_rcv">ไม่พบข้อมูลในรายการรอรับ</string>
+    <string name="msg_notfound_iss">ไม่พบข้อมูลในรายการเบิก</string>
+    <string name="msg_kpp_notallow">ไม่สามารถเบิกจาก KPPSND ได้</string>
+    <string name="msg_location_null">ไม่สามารถระบุที่ตั้ง</string>
+
+    <string name="txt_confirm">ยืนยัน</string>
+    <string name="txt_save">บันทึก</string>
+    <string name="txt_yes">ตกลง</string>
+    <string name="txt_close">ปิด</string>
+    <string name="txt_cancel">ยกเลิก</string>
+
+
+
+
+    <string name="bc_location_type_th">ที่วาง</string>
+    <string name="bc_location_type_en">LOCATION</string>
+
+    <string name="bc_pallet_type_th">พาเล็ต</string>
+    <string name="bc_pallet_type_en">PALLET</string>
+
+    <string name="bc_roll_type_th">ม้วน</string>
+    <string name="bc_roll_type_en">ROLL</string>
+
+    <string name="text_unit">ม้วน</string>
+    <string name="text_weight">กก.</string>
+
+    <string name="sale_location">FGAAAA</string>
+
+</resources>

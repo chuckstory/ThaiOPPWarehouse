@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorBGLight">#FFFFFF</color>
+    <color name="color_preloader_start">#C2185B</color>
+    <color name="color_preloader_center">#F06292</color>
+    <color name="color_preloader_end">#FCE4EC</color>
+    <color name="color_badge_green">#2E7D32</color>
+    <color name="color_badge_red">#B71C1C</color>
+
+</resources>

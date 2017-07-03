@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:hint="@string/pin_input_hint"
+        android:id="@+id/pin_input"
+        android:inputType="numberPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:nextFocusForward="@+id/data_text_input" />
+
+
+</LinearLayout>
