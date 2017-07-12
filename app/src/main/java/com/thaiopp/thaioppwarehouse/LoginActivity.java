@@ -30,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LoginActivity extends AppCompatActivity {
-
+    //adding this comment for test commiting to github
     // all user interface
     private EditText edtUserName;
     private EditText edtPassword;
